@@ -451,22 +451,22 @@ p a:visited
 	}
 
 
-	.contact-details form input[type=date],.contact-details form input[type=datetime-local],.contact-details form input[type=email],.contact-details form input[type=password],.contact-details form input[type=text],.contact-details form textarea{
-		border-radius:5px;
-		padding:20px;
-		width:100%;
-		margin-bottom: 20px;
-		float:left
-	}
-	.contact-details form textarea{
-		min-height:200px;
-		resize:vertical
-	}
+.contact-details form input[type=date],.contact-details form input[type=datetime-local],.contact-details form input[type=email],.contact-details form input[type=password],.contact-details form input[type=text],.contact-details form textarea{
+	border-radius:5px;
+	padding:20px;
+	width:100%;
+	margin-bottom: 20px;
+	float:left
+}
+.contact-details form textarea{
+	min-height:200px;
+	resize:vertical
+}
 
-	#404{
-		color:#fff;
-		text-align:center
-	}
+#404{
+	color:#fff;
+	text-align:center
+}
 
 
 
@@ -594,109 +594,102 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 	background-repeat: repeat-x;
 }
 
-  @media only screen and (min-width: 768px){
-	.social-icons a {
- 		width: 80px;
- 		height: 80px;
-	}
-	.social-icons a {
-	  background: url(../images/social-icon@2x.png);
-	  display: inline-block;
-	}
-	.social-icons .icon-facebook {
-	  background-position: -240px 0;
-	}
-	.social-icons .icon-twitter {
-	  background-position: 0 0;
-	}
-	.social-icons .icon-linkedin {
-	  background-position: -80px 0;
-	}
-	.social-icons .icon-github {
-	  background-position: -320px 0;
-	}
-	.social-icons .icon-facebook:hover {
-	  background-position: -240px -80px;
-	}
-	.social-icons .icon-twitter:hover {
-	  background-position: 0 -80px;
-	}
-	.social-icons .icon-linkedin:hover {
-	  background-position: -80px -80px;
-	}
-		.social-icons .icon-github:hover {
-	  background-position: -320px -80px;
-	}
+@media only screen and (min-width: 768px){
+.social-icons a {
+		width: 80px;
+		height: 80px;
+}
+.social-icons a {
+  background: url(../images/social-icon@2x.png);
+  display: inline-block;
+}
+.social-icons .icon-facebook {
+  background-position: -240px 0;
+}
+.social-icons .icon-twitter {
+  background-position: 0 0;
+}
+.social-icons .icon-linkedin {
+  background-position: -80px 0;
+}
+.social-icons .icon-github {
+  background-position: -320px 0;
+}
+.social-icons .icon-facebook:hover {
+  background-position: -240px -80px;
+}
+.social-icons .icon-twitter:hover {
+  background-position: 0 -80px;
+}
+.social-icons .icon-linkedin:hover {
+  background-position: -80px -80px;
+}
+	.social-icons .icon-github:hover {
+  background-position: -320px -80px;
+}
 
 
 
 
-	#work-items {
-			list-style:none;
-			margin:0 auto;
-			margin-left:auto;
-			margin-right:auto;
-
-			margin-bottom:0;
-			width:100%;
-			*zoom:1;
-			padding:50px;
-
-		}
-		
-	#work-items li .empty{
-		display:inline-block
-		}
-	#work-items .work-item{
-		display:block;
-		width:100%;
-		position:relative;
-		overflow:hidden;
-		margin-left:auto;
-		margin-right:auto;
-		margin-bottom: 50px;
-	}
-	#work-items .work-item img{
-		display:block;
+#work-items {
+		list-style:none;
 		margin:0 auto;
-		-webkit-transition:all .4s ease-out;
-		transition:all .4s ease-out
-	}
-	#work-items .work-item:hover .work-item-hover{
-		background:#000;
-		background:rgba(0,0,0,.4)
-	}
-	#work-items .work-item:hover .work-item-hover h3,
-	#work-items .work-item:hover .work-item-hover h4{-webkit-animation:fadeIn 1s both;animation:fadeIn 1s both}
-	#work-items .work-item:hover 
-	img{
-		-ms-transform:scale(1.05);
-		-webkit-transform:scale(1.05);
-		transform:scale(1.05);
-		-webkit-transition:all .4s ease-in;
-		transition:all .4s ease-in}
-	#work-items .work-item-hover{
-		position:absolute;
-		top:0;
 		margin-left:auto;
 		margin-right:auto;
-		-webkit-transition:background-color .4s linear;transition:background-color .4s linear;
-		background:0 0;
+
+		margin-bottom:0;
 		width:100%;
-		height:100%;
-		text-align:center}
+		*zoom:1;
+		padding:50px;
 
-/*	#work-items ul li {
-	  	width: 12% !important;
-	  	height: 300;
-	  	display: inline-block;
-	  	margin-bottom: 50px;
-		}
-*/
-
-
-	
 	}
+	
+#work-items li .empty{
+	display:inline-block
+	}
+#work-items .work-item{
+	display:block;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 50px;
+}
+#work-items .work-item img{
+	display:block;
+	margin:0 auto;
+	-webkit-transition:all .4s ease-out;
+	transition:all .4s ease-out
+}
+#work-items .work-item:hover .work-item-hover{
+	background:#000;
+	background:rgba(0,0,0,.4)
+}
+#work-items .work-item:hover .work-item-hover h3,
+#work-items .work-item:hover .work-item-hover h4{-webkit-animation:fadeIn 1s both;animation:fadeIn 1s both}
+#work-items .work-item:hover 
+img{
+	-ms-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	transform:scale(1.05);
+	-webkit-transition:all .4s ease-in;
+	transition:all .4s ease-in}
+#work-items .work-item-hover{
+	position:absolute;
+	top:0;
+	margin-left:auto;
+	margin-right:auto;
+	-webkit-transition:background-color .4s linear;transition:background-color .4s linear;
+	background:0 0;
+	width:100%;
+	height:100%;
+	text-align:center}
+
+
+
+
+}
 
 @media only screen and (max-width: 768px){
 
@@ -716,14 +709,52 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 		margin-right: auto;
 		vertical-align: center;
 	}
-	#work-items li{
+	#work-items .portfolio-item{
 
-		width: 33.333%;
+		width: 50%;
 		margin-bottom:80px;
 		margin-left:auto;
 		margin-right:auto;
 
 	}
+	#work-items .work-item{
+	display:block;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 50px;
+}
+#work-items .work-item img{
+	display:block;
+	margin:0 auto;
+	-webkit-transition:all .4s ease-out;
+	transition:all .4s ease-out
+}
+#work-items .work-item:hover .work-item-hover{
+	background:#000;
+	background:rgba(0,0,0,.4)
+}
+#work-items .work-item:hover .work-item-hover h3,
+#work-items .work-item:hover .work-item-hover h4{-webkit-animation:fadeIn 1s both;animation:fadeIn 1s both}
+#work-items .work-item:hover 
+img{
+	-ms-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	transform:scale(1.05);
+	-webkit-transition:all .4s ease-in;
+	transition:all .4s ease-in}
+#work-items .work-item-hover{
+	position:absolute;
+	top:0;
+	margin-left:auto;
+	margin-right:auto;
+	-webkit-transition:background-color .4s linear;transition:background-color .4s linear;
+	background:0 0;
+	width:100%;
+	height:100%;
+	text-align:center}
 
 }
 	
@@ -734,15 +765,15 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 	position: fixed;
 }
 */
-	nav{
-		display: none;
+nav{
+	display: none;
 
-	}
- 	nav ul{
-    height: auto;
-    background-image:none;
+}
+nav ul{
+	height: auto;
+	background-image:none;
 	background-color: #222;
-  }
+}
   nav ul li{
     box-sizing: border-box;
     width:100%;
@@ -759,13 +790,6 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 #about .container{
 	  min-height:880px;
 	  margin:20px;
-	}
-
-		#work-items li{
-		width:48%;
-		margin-left:auto;
-		margin-right:auto;
-
 	}
 }
 
@@ -842,7 +866,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 60px;
     margin-left: 35px;
     background-color: #222;
     -webkit-transform: rotate(45deg);
@@ -853,7 +877,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 60px;
     background-color: #222;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
